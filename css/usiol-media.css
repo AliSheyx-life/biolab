@@ -1,0 +1,81 @@
+@media(max-width: 1200px) {
+    .lenses-list__menu_item{
+        font-size: 17px;
+        padding: 10px 20px;
+    }
+    .lenses-list, 
+    .product-list {
+        max-width: 333px;
+    }
+    .lenses-content, .product-content {
+        padding: 25px
+    }
+    .lenses-content__item_brand {
+        font-size: 30px;
+    }
+    .lenses-content__item_title {
+        font-size: 20px
+    }
+    .lenses-content__item_wrap {
+        padding-top: 20px
+    }
+    .lenses-content__description_name, 
+    .lenses-content__description_item{
+        padding: 6px;
+        font-size: 13px;
+    }
+    
+    .injectors-list__des_item{
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 992px){
+    .lenses-content__description, .product-content__description {
+        padding: 0;
+    }
+    .lenses-wrapper{
+        flex-wrap: wrap;
+    }
+    .lenses-list, .product-list{
+        width: 100%;
+        max-width: 100%;
+    }
+    
+}
+
+@media (max-width: 670px) {
+    .lenses-content__item_wrap{
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 0;
+    }
+    
+    .lenses-list__menu_item{
+        font-size: 12px;
+    }
+    
+    .lenses-content__description_name.model, 
+    .lenses-content__description_item.model{
+        font-size: 16px;
+    }
+    
+    .lenses-content__description_name, 
+    .lenses-content__description_item {
+        padding: 6px;
+        font-size: 10px
+    }
+    
+    .injectors-list{
+        padding: 30px 20px;
+    }
+    
+    .injectors-list__des_item{
+        font-size: 12px;
+        padding: 10px 5px 20px;
+    }
+    .injectors-content__item {
+        padding: 20px;
+    }
+}

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Poppins font 300.400.700.900 -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>BioLab</title>
+</head>
+<body>
+    
+    <!-- ===================================================================
+    Header Start 
+    =====================================================================-->
+    <header class="header">
+        <!-- Navigation Start-->
+        <nav class="header-nav">
+            <div class="container header-nav__container">
+                <div class="header-nav__logo">
+                    <a href="index.html" class="header-nav__logo_link">Bio<span class="header-nav__logo_span">Lab</span></a>
+                </div>
+                
+                <div class="header-nav__burger">
+                    <span class="header-nav__burger_span"></span>
+                    <span class="header-nav__burger_span"></span>
+                    <span class="header-nav__burger_span"></span>
+                </div>
+                
+                <ul class="header-nav__menu">
+                    <li class="header-nav__menu_items">
+                        <a href="index.html" class="header-nav__menu_links active">Home</a>
+                    </li>
+                    <li class="header-nav__menu_items dropdown">
+                        <a href="#products" class="header-nav__menu_links">Products</a>
+                        <div class="header-nav__menu_dropdown">
+                            <a href="lenses.html" class="header-nav__menu_dropdown-link">Intraocular Lenses</a>
+                            <a href="injectors.html" class="header-nav__menu_dropdown-link">Lens Injectors</a>
+                            <a href="gels.html" class="header-nav__menu_dropdown-link">Viscoelastic Gels</a>
+                            <a href="sutures.html" class="header-nav__menu_dropdown-link">Sutures</a>
+                        </div>
+                    </li>
+                    <li class="header-nav__menu_items">
+                        <a href="about.html" class="header-nav__menu_links">About Us</a>
+                    </li>
+                    <li class="header-nav__menu_items">
+                        <a href="contacts.html" class="header-nav__menu_links">Contacts</a>
+                    </li>
+                </ul>
+                <!-- Container END -->
+            </div>
+        </nav>
+        
+        <div class="header-banner">
+            <div class="header-banner__img-box">
+                <img src="images/header-img.png" alt="Header-image" class="header-banner__img">
+            </div>
+            
+            <div class="header-banner__slider">
+                
+                <!-- Slider items -->
+                <div class="header-banner__slider-items active">
+                    <img src="images/lens/880_Hero-©USIOL.png" alt="" class="header-banner__slider_img">
+                    <div class="header-banner__slider_text">
+                        <h2 class="header-banner__slider_title">Intraocular Lens</h2>
+                        <a href="lenses.html" class="header-banner__slider_link">View</a>
+                    </div>
+                </div>
+                <!-- Slider items -->
+                <div class="header-banner__slider-items">
+                    <img src="images/injectors/880PL.png" alt="" class="header-banner__slider_img">
+                    <div class="header-banner__slider_text">
+                        <h2 class="header-banner__slider_title">Lens Injectors</h2>
+                        <a href="injectors.html" class="header-banner__slider_link">View</a>
+                    </div>
+                </div>
+                <!-- Slider items -->
+                <div class="header-banner__slider-items">
+                    <img src="images/syringe/Occulon+HV-SyringeSet-©USIOL.png" alt="" class="header-banner__slider_img">
+                    <div class="header-banner__slider_text">
+                        <h2 class="header-banner__slider_title">Viscoelastic Gel</h2>
+                        <a href="gels.html" class="header-banner__slider_link">View</a>
+                    </div>
+                </div>
+                <!-- Slider items -->
+                <div class="header-banner__slider-items">
+                    <img src="images/suture/Suture_Needle-©USIOL.png" alt="" class="header-banner__slider_img">
+                    <div class="header-banner__slider_text">
+                        <h2 class="header-banner__slider_title">Sutures</h2>
+                        <a href="sutures.html" class="header-banner__slider_link">View</a>
+                    </div>
+                </div>
+                
+                <div class="header-banner__slider_arrows">
+                    <div class="header-banner__slider_arrow-prev"><span></span></div>
+                    <div class="header-banner__slider_arrow-next"><span></span></div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </header>
+    <!-- ===================================================================
+    Header END 
+    =====================================================================-->
+    
+    <!-- ===================================================================
+    Products Start 
+    =====================================================================-->
+    <section class="product" id="products">
+        <div class="product-top">
+            <h2 class="product-top__title">Our Products</h2>
+            <div class="product-top__line"></div>
+            <p class="product-top__brand">Brand USIOL</p>
+        </div>
+        
+        <div class="product-block">
+            <div class="container product-container">
+                <!-- Product-Items -->
+                <a href="lenses.html" class="product-block__item">
+                    <img src="images/lens/867_Hero-©USIOL.png" alt="Lens" class="product-block__img">
+                    <div class="product-block__text">
+                        <h3 class="product-block__text_title">Intraocular Lenses</h3>
+                    </div>
+                </a>
+                <!-- Product-Items -->
+                <a href="injectors.html" class="product-block__item">
+                    <img src="images/injectors/880PL.png" alt="Lens" class="product-block__img">
+                    <div class="product-block__text">
+                        <h3 class="product-block__text_title">Lens Injectors</h3>
+                    </div>
+                </a>
+                <!-- Product-Items -->
+                <a href="gels.html" class="product-block__item">
+                    <img src="images/syringe/USGel-Syringe-©USIOL.png" alt="Lens" class="product-block__img">
+                    <div class="product-block__text">
+                        <h3 class="product-block__text_title">Viscoelastic Gels</h3>
+                    </div>
+                </a>
+                <!-- Product-Items -->
+                <a href="sutures.html" class="product-block__item">
+                    <img src="images/suture/Suture_Needle-©USIOL.png" alt="Lens" class="product-block__img">
+                    <div class="product-block__text">
+                        <h3 class="product-block__text_title">Sutures</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- ===================================================================
+    Products END 
+    =====================================================================-->
+    
+    <!-- ===================================================================
+    Info-text Start 
+    =====================================================================-->
+    <section class="main">
+        <div class="container main-container">
+            <!-- text -->
+            <div class="main-text">
+                <h4 class="main-text__title">A Legacy of quality</h4>
+                <div class="main-text__line"></div>
+                <p class="main-text__text">
+                    Since 1985, USIOL has 
+                    manufactured qualuty intraocular lenses for worldwide distribution. Our product line has grown to include sutures, viscoelastics, PMMA lenses and much more.
+                </p>
+            </div>
+            <!-- text -->
+            <div class="main-text">
+                <h4 class="main-text__title">...Compliance</h4>
+                <div class="main-text__line"></div>
+                <p class="main-text__text">
+                    Our lenses and sutures are FDA
+                    registered and manufactured 
+                    under ISO 13485 certification
+                    your assueance of quality and 
+                    regulatory compliance.
+                </p>
+            </div>
+            <!-- text -->
+            <div class="main-text">
+                <h4 class="main-text__title">...And service</h4>
+                <div class="main-text__line"></div>
+                <p class="main-text__text">
+                    In addition to providing ophthalmologists with superior quality products, our support staff ensures that all customer service needs are addresset in a timely and thorough manner.
+                </p>
+            </div>
+            <!-- text -->
+            <div class="main-text">
+                <h4 class="main-text__title">COVID-19 Update</h4>
+                <div class="main-text__line"></div>
+                <p class="main-text__text">
+                    While USIOL remains in full operation, all meetings and events have been cancelled. Watch for updates as more information becomes available.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- ===================================================================
+    Info-text END 
+    =====================================================================-->
+    
+    
+    <!-- ===================================================================
+    Footer Start 
+    =====================================================================-->
+    <footer class="footer">
+        
+        <div class="container footer-container">
+            <!-- Footer adresses -->
+            <div class="footer-address">
+                <h4 class="footer__title">Our Addresses :</h4>
+                <p class="footer-address__address">United Kingdom, London, Suite AM 160, 298 Romford Road, Forest, Gate, E7 9HD</p>
+                <p class="footer-address__address">Казахстан, Шымкент, ул. Санжар Жандосова 21А — Рыскулова</p>
+                <p class="footer-address__address">Uzbekistan, Chilonzor tumani, E mavze , Bunyodkor shox kochasi, 9 uy</p>
+            </div>
+            <!-- Footer Contacts -->
+            <div class="footer-contacts">
+                <h4 class="footer__title">Our Contacts :</h4>
+                <a href="tel: +447488864636" class="footer__number">+44 7488 864636 London</a>
+                <a href="tel: +998977376207" class="footer__number">+998 97 7376207 Tashkent</a>
+                <a href="biolabgroup@outlook.com" class="footer__mail">biolabgroup@outlook.com</a>
+            </div>
+            <!-- Footer Partners -->
+            <div class="footer-partners">
+                <h4 class="footer__title">Our Partners :</h4>
+                
+                <a href="https://lacrivera.com/" class="footer-partners__link">
+                    <img src="images/partners-1.png" alt="" class="footer-partners__img">
+                </a>
+                <a href="https://stephensinst.com/" class="footer-partners__link">
+                    <img src="images/partners-2.png" alt="" class="footer-partners__img">
+                </a>
+                <a href="https://usiol.com/" class="footer-partners__link">
+                    <img src="images/partners-3.png" alt="" class="footer-partners__img">
+                </a>
+                
+            </div>
+        </div>
+    </footer>
+    <!-- ===================================================================
+    Footer END 
+    =====================================================================-->
+    
+    <div class="copyright">
+        <p class="copyright">&copy;Biolab Groups . 2020</p>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>

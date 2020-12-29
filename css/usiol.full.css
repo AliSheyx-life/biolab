@@ -1,0 +1,164 @@
+html{
+    overflow-x: hidden;
+}
+
+.lenses-wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.lenses-list,
+.product-list{
+    min-width: 320px;
+    max-width: 400px;
+    min-height: 100%;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.lenses-list__menu_item{
+    width: 100%;
+    padding: 15px 25px;
+    color: #555;
+    font-size: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.lenses-list__menu_item:hover,
+.lenses-list__menu_item.active{
+    color: #f39787;
+    border-bottom: 1px solid #f39787;
+}
+
+.lenses-content,
+.product-content{
+    width: 100%;
+    max-height: 100%;
+    padding: 50px;
+    position: relative;
+}
+
+.lenses-content__item, 
+.product-content__item{
+    width: 100%;
+    display: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.5s;
+    transition-delay: 0.5;
+    transform: scale(0);
+}
+
+.product-content__item.active,
+.lenses-content__item.active{
+    display: block;
+    opacity: 1;
+    pointer-events: all;
+    transform: scale(1);
+    animation: animate 0.3s ease-in;
+}
+
+@keyframes animate{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.lenses-content__item_brand{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    color: #f39787;
+    font-weight: 300;
+}
+
+.lenses-content__item_brand span{
+    font-size: 20px;
+}
+
+.lenses-content__item_title{
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    color: #555;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.lenses-content__item_wrap{
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.lenses-content__item_img-bx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lenses-content__description,
+.product-content__description{
+    width: 100%;
+    overflow: hidden;
+    padding-left: 50px;
+}
+
+.lenses-content__description_list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lenses-content__description_list.list-bg{
+    background: #f1f1f1;
+}
+
+.lenses-content__description_name,
+.lenses-content__description_item{
+    width: 50%;
+    padding: 10px;
+    font-size: 18px;
+}
+.lenses-content__description_name.model,
+.lenses-content__description_item.model{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.product-content__description.pmma .lenses-content__description-block{
+    margin-top: 50px;
+    border-top: 3px solid #f39787;
+}
+
+.lenses-content__description_item{
+    color: #c01f11;
+}
+
+.injectors-content__item{
+    padding: 50px;
+}
+
+.injectors-list{
+    border-right: none;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.injectors-list__des_item{
+    font-size: 20px;
+    color: #555;
+    padding: 10px 30px 30px 0;
+    border-top: 1px solid #f39787;
+}
